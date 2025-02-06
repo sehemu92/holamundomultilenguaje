@@ -3,7 +3,7 @@ name: CI/CD Pipeline for HolaMundoMultilenguaje
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
@@ -51,6 +51,6 @@ jobs:
 
           # Optionally, run Composer install on the server
           ssh -o StrictHostKeyChecking=no $USERNAME@$HOST "cd $DEPLOY_PATH && composer install --no-dev --optimize-autoloader"
-          
+
           # Restart Apache if needed
           ssh -o StrictHostKeyChecking=no $USERNAME@$HOST "sudo systemctl restart apache2"
