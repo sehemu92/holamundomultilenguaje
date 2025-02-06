@@ -25,7 +25,7 @@
     </head>
     <body>
         <div class="container">
-        <h1>Generador aleatorio de Hola Mundos commit 8</h1>
+        <h1>Generador aleatorio de Hola Mundos commit 9</h1>
         <form method="post">
         <button type="submit">Generar</button>
         </form>
