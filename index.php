@@ -25,7 +25,7 @@
     </head>
     <body>
         <div class="container">
-        <h1>Generador aleatorio de Hola Mundos con propietario UBUNTU de la carpeta "holamundo"</h1>
+        <h1>Generador aleatorio de Hola Mundos con propietario UBUNTU de la carpeta "holamundo" con instalacion de composer</h1>
         <form method="post">
         <button type="submit">Generar</button>
         </form>
